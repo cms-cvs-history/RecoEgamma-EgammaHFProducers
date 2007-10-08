@@ -1,0 +1,10 @@
+#Sequence for making HFEMClusters into RecoEcalCandidates
+#
+
+#create HFEMClusterShapes and SuperCluster
+include "RecoEgamma/EgammaHFProducers/data/hfClusterShapes.cfi"
+
+#create RecoEcalCandidates
+include "RecoEgamma/EgammaHFProducers/data/hfRecoEcalCandidate.cfi"
+
+sequence hfEMClusteringSequence = {hfClusterShape & hfRecoEcalCand}
