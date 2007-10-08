@@ -1,0 +1,9 @@
+# HF RecoEcalCandidate Producer
+module hfRecoEcalCandidate = HFRecoEcalCandidateProducer
+{
+
+   bool correct = true
+   double e9e25Cut = -1
+   double eCOREe9Cut = -1
+   double eSeLCut = -1
+}
