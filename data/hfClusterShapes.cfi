@@ -1,5 +1,5 @@
 # HFEMClusterShape producer
-module hfclusters = HFClusterProducer
+module hfClusterShapes = HFClusterProducer
 {
 
 }
