@@ -1,5 +1,5 @@
 # HFEMClusterShape producer
-module hfclusters = HFClusterProducer
+module hfEMClusters = HFEMClusterProducer
 {
-
+  untracked InputTag hits = hfreco
 }

@@ -1,8 +1,9 @@
 # HF RecoEcalCandidate Producer
 module hfRecoEcalCandidate = HFRecoEcalCandidateProducer
 {
+untracked InputTag hfclusters = hfEMClusters
 
-   bool correct = true
+   bool Correct = true
    double e9e25Cut = -1
    double eCOREe9Cut = -1
    double eSeLCut = -1
