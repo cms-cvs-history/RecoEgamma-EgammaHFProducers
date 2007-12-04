@@ -1,5 +1,6 @@
 # HFEMClusterShape producer
 module hfEMClusters = HFEMClusterProducer
 {
-  untracked InputTag hits = hfreco
+    untracked InputTag hits = hfreco
+    double minTowerEnergy = 3
 }
