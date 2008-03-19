@@ -4,7 +4,6 @@ module hfRecoEcalCandidate = HFRecoEcalCandidateProducer
 untracked InputTag hfclusters = hfEMClusters
 
    bool Correct = true
-   double e9e25Cut = -1
-   double eCOREe9Cut = -1
-   double eSeLCut = -1
+   double e9e25Cut = 0.88
+   double intercept2DCut = 0.16
 }
