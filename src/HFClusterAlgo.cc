@@ -219,7 +219,7 @@ bool HFClusterAlgo::makeCluster(const HcalDetId& seedid,
 	}
 	
 	// cut on "PMT HIT" flag
-	if ((il->flagField(0,1))&&(m_useFlag)&&(il!=hf.end())) {
+	if ((il!=hf.end())&&(il->flagField(0,1))&&(m_useFlag)) {
 	  if (dp==0 && de==0) clusterOk=false; // somehow, the seed is hosed
 	  continue;
 	}
